@@ -768,6 +768,12 @@ export default function HollyJollyPage() {
                           كنائس المهجر
                         </Label>
                       </div>
+                      <div className="flex items-center space-x-2">
+                        <RadioGroupItem value="اهالي كورال قلب داود" id="church10" />                                                                        
+                        <Label htmlFor="church10" className="font-normal cursor-pointer text-gray-800 font-arabic">                                              
+                          اهالي كورال قلب داود
+                        </Label>
+                      </div>
                     </RadioGroup>
                   </div>
 
