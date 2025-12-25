@@ -54,7 +54,9 @@ export default function HollyJollyPage() {
 
   // Instapay users array
   const instapayUsers = [
-    "Kerminamagedqnb@instapay"
+    "Karenamir@instapay",
+    "Kerminamagedqnb@instapay",
+    "Benyaminghobrial@instapay"
   ]
 
   // Assign Instapay user on component mount
@@ -680,6 +682,10 @@ export default function HollyJollyPage() {
                     <div className="mt-4 p-4 bg-white/80 rounded-lg border border-primary/30">
                       <h4 className="text-lg font-bold text-primary mb-3 text-center font-arabic">الشروط والأحكام</h4>
                       <ul className="space-y-2 text-sm text-gray-700">
+                        <li className="flex items-start space-x-2">
+                          <span className="text-red-500 font-bold">•</span>
+                          <span className="font-arabic">اخر يوم للحجز الثلاثاء ٢٣/١٢</span>
+                        </li>
                         <li className="flex items-start space-x-2">
                           <span className="text-blue-500 font-bold">•</span>
                           <span className="font-arabic">سعر التذكرة الواحدة لكل فرد في العائلة ٢٠٠ جنيه ليوم ١٤ ديسمبر</span>
