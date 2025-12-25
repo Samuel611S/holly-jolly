@@ -18,7 +18,7 @@ export default function HollyJollyPage() {
   const [showSuccessModal, setShowSuccessModal] = useState(false)
   const [showValidationModal, setShowValidationModal] = useState(false)
   const [validationMessage, setValidationMessage] = useState("")
-  const [assignedInstapayUser, setAssignedInstapayUser] = useState("")
+  const [assignedInstapayUser, setAssignedInstapayUser] = useState("Kerminamagedqnb@instapay")
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
   
   // Generate stable background ornaments that don't change on re-render - Reduced for better performance
@@ -52,18 +52,7 @@ export default function HollyJollyPage() {
   })
   const audioRef = useRef<HTMLAudioElement>(null)
 
-  // Instapay users array
-  const instapayUsers = [
-    "Karenamir@instapay",
-    "Kerminamagedqnb@instapay",
-    "Benyaminghobrial@instapay"
-  ]
-
-  // Assign Instapay user on component mount
-  useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * instapayUsers.length)
-    setAssignedInstapayUser(instapayUsers[randomIndex])
-  }, [])
+  // Instapay user is fixed to Kerminamagedqnb@instapay
 
   // Live countdown timer
   useEffect(() => {
